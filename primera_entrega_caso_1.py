@@ -95,4 +95,4 @@ for epoch in range(n_epochs):
     plt.close()  # Cierra la figura para no acumular memoria
 
 # --- 5. GUARDAR GIF ---
-imageio.mimsave("primera_entrega_caso_1.gif", frames, fps=2)
+imageio.mimsave("gifs/primera_entrega_caso_1.gif", frames, fps=2)

@@ -61,4 +61,4 @@ for epoch in range(epochs):
     plt.close()
 
 # Guardar GIF
-imageio.mimsave("ejercicio_18.gif", frames, fps=10)
+imageio.mimsave("gifs/ejercicio_18.gif", frames, fps=10)

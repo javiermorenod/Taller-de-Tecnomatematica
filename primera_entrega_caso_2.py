@@ -157,6 +157,6 @@ for epoch in range(epochs):
 
         frames.append(imageio.imread(filename))
 
-imageio.mimsave("primera_entrega_caso_2.gif", frames, fps=10)
+imageio.mimsave("gifs/primera_entrega_caso_2.gif", frames, fps=10)
 
 shutil.rmtree("frames_temp")
